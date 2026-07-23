@@ -14,7 +14,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8897498710:AAEnb8SdQPv-09-F14riBjAqhjfVZ70wURw")
-ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "7356097969").split(",")]
+ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "8084396515").split(",")]
 
 # ── Conversation states ────────────────────────────────────────────────
 (
